@@ -1,0 +1,105 @@
+.auth-page {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 380px;
+  background: #fff;
+  border-radius: 20px;
+  padding: 36px 32px;
+  box-shadow: 0 10px 30px rgba(30, 20, 10, 0.08);
+}
+
+.auth-brand {
+  display: block;
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: var(--spice);
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.auth-card h1 {
+  font-family: "Fraunces", serif;
+  font-size: 1.6rem;
+  margin: 0 0 6px;
+}
+
+.auth-sub {
+  color: #8a7f70;
+  margin: 0 0 24px;
+  font-size: 0.92rem;
+}
+
+.auth-error {
+  background: #fdecea;
+  color: #a8322d;
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-size: 0.85rem;
+  margin-bottom: 16px;
+}
+
+.auth-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.auth-card label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.auth-card input {
+  padding: 11px 14px;
+  border-radius: 10px;
+  border: 1.5px solid #e9e0d3;
+  font-size: 0.95rem;
+  outline: none;
+  font-weight: 400;
+}
+
+.auth-card input:focus {
+  border-color: var(--spice);
+}
+
+.auth-card button[type="submit"] {
+  margin-top: 6px;
+  background: var(--spice);
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.auth-card button[type="submit"]:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.auth-switch {
+  text-align: center;
+  margin: 22px 0 0;
+  font-size: 0.88rem;
+  color: #6b6258;
+}
+
+.auth-switch a {
+  color: var(--spice);
+  font-weight: 700;
+  text-decoration: none;
+}

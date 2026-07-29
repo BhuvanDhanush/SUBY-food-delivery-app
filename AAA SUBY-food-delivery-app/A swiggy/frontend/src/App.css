@@ -1,0 +1,29 @@
+.app-shell {
+  min-height: 100%;
+}
+
+.status-msg {
+  text-align: center;
+  color: #8a7f70;
+  padding: 60px 0;
+}
+
+.status-msg.error {
+  color: #a8322d;
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.back-link {
+  color: var(--spice);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.menu-notfound {
+  max-width: 480px;
+  margin: 80px auto;
+  text-align: center;
+  color: #6b6258;
+}

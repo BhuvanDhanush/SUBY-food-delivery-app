@@ -1,0 +1,65 @@
+.success-page {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 60px 24px 100px;
+  text-align: center;
+}
+
+.success-icon {
+  font-size: 3rem;
+  margin-bottom: 12px;
+}
+
+.success-page h1 {
+  font-family: "Fraunces", serif;
+  margin: 0 0 8px;
+}
+
+.success-sub {
+  color: #6b6258;
+  margin: 0 0 28px;
+}
+
+.order-card {
+  background: #fff;
+  border-radius: 18px;
+  padding: 24px;
+  text-align: left;
+  margin-bottom: 28px;
+}
+
+.order-card-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.92rem;
+  padding: 8px 0;
+  border-bottom: 1px solid #ece3d5;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.order-items {
+  list-style: none;
+  margin: 0;
+  padding: 14px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-bottom: 1px solid #ece3d5;
+}
+
+.order-items li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.88rem;
+  color: #4a3f33;
+}
+
+.order-card-total {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  padding-top: 14px;
+}
